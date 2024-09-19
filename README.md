@@ -1,65 +1,92 @@
 # Pet-project HealthT5
-This repository for testing website HealthT5 describesprocess of work under functional testing, no functional testing (perfomance, UI, usability).
+## Project Overview
+This project was created to enhance our skills in manual and automated testing. We conducted a comprehensive test of the website HealthT5 with permission from the site owner. The project was done without interference in the backend or code.
+The website is a collection of articles related to health and beauty. Users can search for content via keywords or navigate through various categories. There is also the ability to comment under articles, subscribe for email updates, access the site's social media pages (Instagram, TikTok, Pinterest, YouTube), and share articles through different social media platforms (LinkedIn, Facebook, Instagram, Viber, WhatsApp, etc.).
 
-To test the website was create test-plan, which describe requirements and nessecary actions for successful result:
-## Мета
-Цей тест-план охоплює процедури, які будуть використані для тестування веб-сайту HealthT5. 
-Основна мета – забезпечити, щоб усі функції сайту працювали належним чином, а також перевірити відповідність сайту вимогам.
+## Features Tested
+- Search Functionality: Testing keyword search and navigation through topics in the main menu.
+- Email Subscription: Verifying the email subscription feature for new article updates.
+- Navigation: Checking the site's navigation structure and functionality.
+- Commenting System: Testing the commenting system under articles.
+- Social Media Links: Testing the functionality of links to the site's social media pages.
+- Article Sharing: Testing the article sharing options via various social media platforms.
+- Usability & UI Testing: Conducted on different devices (see below).
 
-## Цілі тестування
-1. Переконатися, що вебсайт функціонує згідно з технічними вимогами.
-2. Виявити помилки або невідповідності у роботі сайту.
-3. Перевірити сумісність з різними браузерами та пристроями.
-4. Перевірити аспекти юзабіліті для зручності навігації та взаємодії з користувачем.
-5. Перевірити продуктивність та швидкість завантаження сторінок.
+## Devices and Platforms Tested
+**Laptops:**
+- Asus X555Y
+- Asus X509M
+- Dell G7 7588
+**Smartphones:**
+- IPhone 8 Plus
+- Realme X2 Pro
+- Xiaomi Redmi Note 10 5G
+**Tablet:**
+- Teclast PH40
+**Operating Systems:**
+- Windows 10
+- IOS 16.7
+- Android 13
+- Android 11
+- Windows 10 Home
+- Fedora Workstation 40
+**Browsers:**
+- Google
+- Google Chrome
+- Microsoft Edge
+- Opera
+- FireFox
+- Safari
 
-## Масштаб
-План тестування охоплює функціональні та нефункціональні аспекти веб сайту.
+## Testing Tools
+- **Jira:** Used for project management and tracking stories, test cases, and issues.
+- **Zephyr Scale:** Used for creating test cases, test suites, executing tests in test cycles, and generating reports.
+- **Selenium IDE:** Basic automation was implemented for essential site functions.
+### Selenium IDE Setup
+To run the tests using Selenium IDE, follow these steps:
+1. Install the Selenium IDE extension (version 3.17.2) from the Chrome Web Store:
+  - Visit the Selenium IDE Chrome Extension page.
+  - Click Add to Chrome and follow the installation instructions.
+2. Once installed, you can open Selenium IDE directly from the browser's toolbar.
+3. The scripts for automation testing are included in the repository under the selenium-scripts folder. To run the scripts:
+  - Open Selenium IDE.
+  - Import the provided .side files from the repository.
+  - Execute the tests as per your requirement.
 
-## Область застосування. 
-Тестування охоплює всі сторінки веб-сайту, включаючи головну сторінку, функціонал пошуку, коментарі, посилання на соціальні мережі, навігацію, зміни кольорової теми, підписка на новини, функція «Share», перевірка коректного відображення статей.
+## Team Members
+- Filipieva Marina
+- Melnychok Tetyana
+- Zhadan Anton
 
-## Види тестування.
-- Функціональне тестування: Перевірка всіх функціональних можливостей веб-сайту відповідно до вимог.
-- Тестування інтерфейсу (UI): Оцінка зручності використання інтерфейсу, перевірка коректності відображення на різних пристроях та в різних браузерах.
-- Тестування User Experience (UE): Оцінка, яке враження користувачі отримали від користування веб-сайтом.
-- Тестування продуктивності: Перевірка швидкості завантаження сторінок та стабільності роботи під час високого навантаження.
-- Тестування сумісності: Перевірка роботи сайту в різних браузерах (Chrome, Firefox, Edge, Safari), на різних пристроях (ПК, планшети, смартфони) та на різних ОС (Microsoft Windows, Linux, Android, IOS).
-- Тестування доступності: Оцінка доступності веб-сайту для людей з обмеженими можливостями.(?)
+## Test Report Summary
+The test cycle covered the following:
+- Successful site navigation and usability.
+- Working search functionality with relevant results.
+- Proper functionality of the comment system.
+- Accurate email notifications after subscribing.
+- Social media link functionality and article sharing features.
 
-## Інструменти тестування
-- Selenium;
-- Jira;
-- Zephyr Scale.
+## Usability & UI Testing
+We tested usability and UI across various devices to ensure a seamless user experience:
+- **Laptops:** Asus X555Y, Asus X509M, Dell G7 7588
+- **Smartphones:** iPhone 8 Plus, Realme X2 Pro, Xiaomi Redmi Note 10 5G
+- **Tablet:** Teclast PH40
+- **Operating Systems:** Windows 10, iOS 16.7, Android 13, Android 11, Windows 10 Home, Fedora Workstation 40
+- **Browsers:** Google, Google Chrome, Microsoft Edge, Opera, FireFox, Safari
 
-## Пристрої для тестування
-**Кожен напише, на яких пристроях буде тестувати, наприклад:**
-- Ноутбуки: Dell G7 7588 (32 RAM, дисплей 15.6, Windows 10, Linux Fedora Workstation 40); 
-- Смартфони: Realme X2 Pro (8 RAM, дисплей 6.4, Android 11);
-- Планшети: Teclast PH40 (8 RAM, дисплей 10.1, Android 13); Huawei MediaPad 8 (2 RAM, дисплей 8.0, Android 9).
+## Files and Documentation
+All test case details, results, and additional documentation can be found in the corresponding folders of this repository.
 
-## Критерії прийняття. 
-Веб-сайт вважається прийнятим, якщо всі функції працюють відповідно до вимог, відсутні критичні помилки, продуктивність сайту відповідає вимогам, і сайт є  сумісним з основними браузерами і пристроями.
+## Contacts
+- Filipieva Marina -- marynafilipieva.qa@gmail.com
+- Melnychok Tetyana -- 
+- Zhadan Anton -- zhadananton97@gmail.com
 
-## Критерії виходу
-- Успішне проходження всіх тестів без критичних помилок.
-- Всі тестові звіти підготовлені і затверджені.
+## License
+This project is licensed for educational and non-commercial purposes only, with permission from the website owner for testing. Redistribution is prohibited.
 
-## План розкладу. 
-Тестування буде проводитися протягом [кількість днів/тижнів] днів, починаючи з [дата початку]. 
-Проміжні звіти будуть підготовлені кожного [вказати день тижня або період]. 
-Остаточний звіт буде представлений на [дата завершення тестування].
-
-## Команда тестування
-- Жадан Антон
-- Мельничок Тетяна
-- Філіп’єва Марина
-
-## Ризики та непередбачувані обставини
-**Ризики:**
-1. Відключення світла;
-2. Відсутність інтернету.
-
-## Заключення 
-Цей тест-план є керівництвом для забезпечення високої якості веб-сайту HealthT5. 
-Усі члени команди тестування повинні дотримуватися цього плану, щоб досягти поставлених цілей.
+## Repository Structure
+- **Test Cases:** Located in the test_cases folder.
+- **Test Reports:** Available in the test_reports folder.
+- **Screenshots:** Saved in the screenshots folder for easy reference.
+- **Automation Scripts:** Available in the selenium_scripts folder.
