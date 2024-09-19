@@ -17,12 +17,15 @@ The website is a collection of articles related to health and beauty. Users can 
 - Asus X555Y
 - Asus X509M
 - Dell G7 7588
+
 **Smartphones:**
 - IPhone 8 Plus
 - Realme X2 Pro
 - Xiaomi Redmi Note 10 5G
+
 **Tablet:**
 - Teclast PH40
+
 **Operating Systems:**
 - Windows 10
 - IOS 16.7
@@ -30,6 +33,7 @@ The website is a collection of articles related to health and beauty. Users can 
 - Android 11
 - Windows 10 Home
 - Fedora Workstation 40
+
 **Browsers:**
 - Google
 - Google Chrome
