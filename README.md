@@ -49,13 +49,13 @@ The website is a collection of articles related to health and beauty. Users can 
 ### Selenium IDE Setup
 To run the tests using Selenium IDE, follow these steps:
 1. Install the Selenium IDE extension (version 3.17.2) from the Chrome Web Store:
-  - Visit the Selenium IDE Chrome Extension page.
-  - Click Add to Chrome and follow the installation instructions.
+    - Visit the Selenium IDE Chrome Extension page.
+    - Click Add to Chrome and follow the installation instructions.
 2. Once installed, you can open Selenium IDE directly from the browser's toolbar.
 3. The scripts for automation testing are included in the repository under the selenium-scripts folder. To run the scripts:
-  - Open Selenium IDE.
-  - Import the provided .side files from the repository.
-  - Execute the tests as per your requirement.
+    - Open Selenium IDE.
+    - Import the provided .side files from the repository.
+    - Execute the tests as per your requirement.
 
 ## Team Members
 - Filipieva Marina
@@ -73,7 +73,7 @@ The test cycle covered the following:
 ## Usability & UI Testing
 We tested usability and UI across various devices to ensure a seamless user experience:
 - **Laptops:** Asus X555Y, Asus X509M, Dell G7 7588
-- **Smartphones:** iPhone 8 Plus, Realme X2 Pro, Xiaomi Redmi Note 10 5G
+- **Smartphones:** IPhone 8 Plus, Realme X2 Pro, Xiaomi Redmi Note 10 5G
 - **Tablet:** Teclast PH40
 - **Operating Systems:** Windows 10, iOS 16.7, Android 13, Android 11, Windows 10 Home, Fedora Workstation 40
 - **Browsers:** Google, Google Chrome, Microsoft Edge, Opera, FireFox, Safari
@@ -82,15 +82,15 @@ We tested usability and UI across various devices to ensure a seamless user expe
 All test case details, results, and additional documentation can be found in the corresponding folders of this repository.
 
 ## Contacts
-- Filipieva Marina -- marynafilipieva.qa@gmail.com
-- Melnychok Tetyana -- 
-- Zhadan Anton -- zhadananton97@gmail.com
+- Filipieva Marina — marynafilipieva.qa@gmail.com
+- Melnychok Tetyana —
+- Zhadan Anton — zhadananton97@gmail.com
 
 ## License
 This project is licensed for educational and non-commercial purposes only, with permission from the website owner for testing. Redistribution is prohibited.
 
 ## Repository Structure
-- **Test Cases:** Located in the test_cases folder.
-- **Test Reports:** Available in the test_reports folder.
-- **Screenshots:** Saved in the screenshots folder for easy reference.
-- **Automation Scripts:** Available in the selenium_scripts folder.
+- **Test Cases:** Located in the [Test Cases](https://github.com/anton-zhadan-qa/Pet-project/tree/main/Test%20Cases) folder.
+- **Test Reports:** Available in the Test Reports folder.
+- **Screenshots:** Saved in the Screenshots folder for easy reference.
+- **Automation Scripts:** Available in the Selenium Scripts folder.
