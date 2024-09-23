@@ -83,7 +83,7 @@ All test case details, results, and additional documentation can be found in the
 
 ## Contacts
 - Filipieva Marina — marynafilipieva.qa@gmail.com
-- Melnychok Tetyana — tetiana.melnychok.qa@gmail.com
+- Melnychok Tetiana — tetiana.melnychok.qa@gmail.com
 - Zhadan Anton — zhadananton97@gmail.com
 
 ## License
