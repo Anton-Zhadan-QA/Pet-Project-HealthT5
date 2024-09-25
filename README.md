@@ -58,7 +58,7 @@ To run the tests using Selenium IDE, follow these steps:
     - Execute the tests as per your requirement.
 
 ## Team Members
-- Filipieva Marina
+- Filipieva Maryna
 - Melnychok Tetyana
 - Zhadan Anton
 
