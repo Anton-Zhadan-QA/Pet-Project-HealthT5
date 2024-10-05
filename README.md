@@ -93,5 +93,5 @@ This project is licensed for educational and non-commercial purposes only, with 
 - **Test Cases:** Located in the [Test Cases](https://github.com/anton-zhadan-qa/Pet-project/tree/main/Test%20Cases) folder.
 - **Test Reports:** Available in the [Test Reports](https://github.com/anton-zhadan-qa/Pet-project/tree/main/TEST%20REPORTS) folder.
 - **Bug Reports:** Available in the [Bug Reports](https://github.com/anton-zhadan-qa/Pet-project/tree/main/Bug%20Reports) folder.
-- **Screenshots:** Saved in the [Screenshots](https://github.com/anton-zhadan-qa/Pet-project/tree/main/Screenshots) folder for easy reference.
+- **Screenshots:** Saved in the folder for easy reference.
 - **Automation Scripts:** Available in the [Selenium Scripts](https://github.com/anton-zhadan-qa/Pet-project/tree/main/Selenium%20Scripts) folder.
